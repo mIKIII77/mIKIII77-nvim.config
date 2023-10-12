@@ -38,5 +38,10 @@ require("lazy").setup({
         tag = '0.1.4',
         dependencies = {'nvim-lua/plenary.nvim'}
     },
-    {'jose-elias-alvarez/null-ls.nvim'}        
+    {'jose-elias-alvarez/null-ls.nvim'},        
+    {'nvim-lualine/lualine.nvim'},
+    {'windwp/nvim-ts-autotag'},
+    {'windwp/nvim-autopairs'},
+    {'akinsho/nvim-bufferline.lua'},
+    {'MunifTanjim/prettier.nvim'}
 })
